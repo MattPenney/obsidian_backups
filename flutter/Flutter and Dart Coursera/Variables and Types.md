@@ -63,6 +63,24 @@ var variable = 'world'
 ```
 
 
+### Booleans
 
+ Represents true or false
 
- 
+Used in control flow statements
+
+### Lists
+
+Ordered collection of items
+
+0 indexed
+
+```dart
+List<String> fruits = ['Apple', 'Banana', 'Cherry'];
+print(fruits[0]);
+
+fruits.add('Orange');
+```
+
+### Maps
+
