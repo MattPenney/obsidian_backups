@@ -46,6 +46,10 @@ Types include
 - Lists
 - Maps
 
+### Numbers
+
+Includes ints and doubles
+
 ### Strings
 
 May use single or double quotes 
