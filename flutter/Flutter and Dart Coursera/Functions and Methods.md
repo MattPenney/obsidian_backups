@@ -36,3 +36,19 @@ Parameter types include:
 
 ### Required Parameters
 
+Required and positional
+
+```dart
+int multiply(int a, int b) {
+	return a * b;
+}
+
+void main() {
+	print(multiply(3,4));
+}
+```
+
+### Optional Parameters 
+
+Can be positional or named
+
