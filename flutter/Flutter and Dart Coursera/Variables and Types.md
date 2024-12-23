@@ -95,5 +95,30 @@ Map<String, int> scores = {
 	'Charlie': 95,
 };
 
-print(scores)
+print(scores['Alice']);
+
+scores['Dave'] = 80;
 ```
+
+### null
+
+Not initialized
+
+```dart
+String? nullString = null;
+```
+
+### Type Inference and Annotation
+
+#### Inference
+
+```dart
+var city = 'New York';
+```
+
+#### Annotation
+
+```dart
+String country = 'USA';
+```
+
