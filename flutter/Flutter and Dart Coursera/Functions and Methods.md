@@ -52,3 +52,14 @@ void main() {
 
 Can be positional or named
 
+```dart
+String fullName(String firstName, [String? middleName, String? lastName]) {
+	return '$firstName ${middleName ?? ''} ${lastName ?? ''}';
+}
+
+void main() {
+	print(fullName('John', 'Doe'));
+	print(fullName('John', 'Paul', 'Doe'));
+}
+```
+
