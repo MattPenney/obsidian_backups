@@ -10,4 +10,8 @@ Variables must be declared and given a value
 	var variable = 3;
 ```
 Can be declared with the keywords `var` `const` or `final`
+
+var declares a variable without explicitly specifying a data type
+
+
  
