@@ -21,8 +21,18 @@ void main() {
 }
 ```
 
+
+## Parameters 
+
 Parameters are the pieces of data accepted when calling a function
 
 Default values can be provided and arguments can be added
 
-Parameter types 
+Parameter types include:
+- Required
+- Optional
+- Named
+- Default
+
+### Required Parameters
+
