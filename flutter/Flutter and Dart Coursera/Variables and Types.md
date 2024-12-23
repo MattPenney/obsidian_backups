@@ -84,3 +84,16 @@ fruits.add('Orange');
 
 ### Maps
 
+Collection of key value pairs
+
+Keys must be unique
+
+```dart
+Map<String, int> scores = {
+	'Alice': 90,
+	'Bob': 85,
+	'Charlie': 95,
+};
+
+print(scores)
+```
