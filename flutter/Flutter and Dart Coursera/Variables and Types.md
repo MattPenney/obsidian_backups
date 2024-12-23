@@ -48,9 +48,19 @@ Types include
 
 ### Strings
 
-May use single or double quotes
+May use single or double quotes 
 
+```dart
+"String"
+'Also a string'
+```
 
+Uses string interpolation -- a variable or expression may be included inside of a string
+
+```dart
+var variable = 'world'
+'Hello $variable!'
+```
 
 
 
