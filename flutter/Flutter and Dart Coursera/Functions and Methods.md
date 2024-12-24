@@ -125,5 +125,13 @@ Allows functions to capture and store references to variables and their surround
 Function makeAdder(int addBy) {
 	return (int i) => addBy + 1;
 }
+
+void main() {
+	var add2 = makeAdder(2);
+	var add5 = makeAdder(5);
+	
+	print(add2(3)); // Output: 5
+	print(add5(3)); // Output: 8
+}
 ```
 
