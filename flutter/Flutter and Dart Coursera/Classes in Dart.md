@@ -207,6 +207,12 @@ void main() {
 }
 ```
 
-## Iherit
+## Inheritance
+
+Helps organize complex code
+
+Establishes relationships between parent and child classes
+
+
 
 
