@@ -12,17 +12,35 @@ Each object has a unique state
 
 Represent data
 
-### public
+```dart
+class Person {
 
+	//Public properties
+	String name;
+	int age;
+	
+	//Private property
+	String _ssn;
+	
+	//Constructor
+	Person(this.name, this.age, this._ssn);
+	
+	//Method
+	void displayInfo() {
+		print('Name: $name, Age: $age, SSN:$_ssn');
+	}
+}
+```
+
+### public
 Allows access by external classes
 ### private
 
 Controls access
 
-Can only be accessed from within the ca
+Can only be accessed from within the class
 
-
-
+An underscore declares a private property
 
 
 ## Methods
