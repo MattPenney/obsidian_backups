@@ -66,7 +66,33 @@ class Person {
 
 void main() {
 	Person p = Person('Alice', 30);
-	p.describe
-
+	p.describe(); // Output: 'I am Alice and I am 30 years old.'
+	print(p.yearsUntilRetirement()); // Output: 35
 }
 ```
+
+### Getters and Setters
+
+#### Getters
+
+Perform calculations or formatting
+
+Uses `get` keyword
+
+```dart
+class Circle {
+	double radius;
+	
+	Circle(this.radius);
+
+	double get area => 3.14 * radius * radius;
+}
+
+void main() {
+	Circle c = Circle
+}
+```
+
+#### Setters 
+
+Validate input or trigger actions
