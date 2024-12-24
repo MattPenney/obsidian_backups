@@ -148,7 +148,29 @@ class Math {
 
 void main() {
 	print(Math.pi); // Output: 3.14
-	print(Math.square(4)); //Output: 1
-	
+	print(Math.square(4)); //Output: 16	
 }
 ```
+
+### Anonymous Functions
+
+Nameless and ideal for short, one time operations
+
+Offers flexibility--can be passed to other functions, etc
+
+Promotes clean code for complex programs
+
+```dart
+
+void main() {
+	var list = ['apples', 'bananas', 'oranges'];
+	list.forEach((item) {
+		print(item);
+	});
+}
+```
+
+## Encapsulation
+
+
+
