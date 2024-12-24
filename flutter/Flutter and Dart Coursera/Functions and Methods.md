@@ -121,5 +121,9 @@ print(hasApple);
 
 Allows functions to capture and store references to variables and their surrounding scope(lexical scope) even after the scope in which the variables were declared has finished executing
 
-
+```dart
+Function makeAdder(int addBy) {
+	return (int i) => addBy + 1;
+}
+```
 
