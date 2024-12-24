@@ -108,4 +108,18 @@ Perform actions on data contained within objects
 List<String> fruits = ['Apple', 'Banana', 'Cherry'];
 
 fruits.add('Date');
+print(fruits); 
+
+fruits.remove('Banana');
+print(fruits);
+
+bool hasApple = fruits.contains('Apple');
+print(hasApple);
 ```
+
+## Closures
+
+Allows functions to capture and store references to variables and their surrounding scope(lexical scope) even after the scope in which the variables were declared has finished executing
+
+
+
