@@ -89,7 +89,35 @@ class Circle {
 }
 
 void main() {
-	Circle c = Circle
+	Circle c = Circle(5);
+	print(c.area);
+}
+
+class Rectangle {
+	double _width = 0;
+	double _height = 0;
+
+	void set width(double value) {
+		if (value > 0) {
+			_width = value;
+		}
+	}
+
+	void set height(double value) {
+		if (value > 0) {
+			_height = value;
+		}
+	}
+
+	double get area => _width * _height;
+}
+
+void main() {
+	Rectangle r = Rectangle();
+	r.width = 10;
+	r.height = 20;
+	print(r.area);
+
 }
 ```
 
