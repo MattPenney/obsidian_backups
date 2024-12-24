@@ -172,6 +172,32 @@ void main() {
 
 ## Encapsulation
 
+Protects data from unauthorized access
 
+The keys are getters and setters
+
+```dart
+
+class BankAccount {
+	String _accountNumber;
+	double _balance;
+
+	BankAccount(this._accountNumber, this._balance);
+
+	double get balance => _balance;
+
+	void deposit(double amount) {
+		if (amount > 0) {
+			_balance += amount;
+		}
+	}
+
+	void withdraw(double amount) {
+		if (amount <= balance) {
+			_balance -= amount;
+		}
+	}
+}
+```
 
 
