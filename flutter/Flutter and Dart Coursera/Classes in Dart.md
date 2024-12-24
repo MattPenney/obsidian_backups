@@ -195,9 +195,18 @@ class BankAccount {
 	void withdraw(double amount) {
 		if (amount <= balance) {
 			_balance -= amount;
+		} else {
+			print('Insufficient funds');
 		}
 	}
 }
+
+void main() {
+	BankAccount account = BankAccount('123456789', 1000.0);
+	print('Balance: \$${account.balance}'); // Output: Balance: 1000.0
+}
 ```
+
+## Iherit
 
 
