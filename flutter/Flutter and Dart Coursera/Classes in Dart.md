@@ -116,7 +116,7 @@ void main() {
 	Rectangle r = Rectangle();
 	r.width = 10;
 	r.height = 20;
-	print(r.area);
+	print(r.area); //Output: 200
 
 }
 ```
@@ -124,3 +124,31 @@ void main() {
 #### Setters 
 
 Validate input or trigger actions
+
+### Static Methods
+
+Do not belong to object instances
+
+Used for utility functions
+
+Don't require access to object-specific data
+
+Examples:
+- Utility conversions
+- Mathematical calculations
+
+```dart
+class Math {
+	static double pi = 3.14;
+
+	static int square(int x) {
+		return x * x;
+	}
+}
+
+void main() {
+	print(Math.pi); // Output: 3.14
+	print(Math.square(4)); //Output: 1
+	
+}
+```
