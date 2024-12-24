@@ -70,5 +70,16 @@ Specified using curly braces
 Required or given default values
 
 ```dart
+void greet({String name, String greeting = 'Hello'}) {
+	print('$greeting, $name!');
+}
 
+void main() {
+	greet(name: 'Alice');
+	greet(name: 'Bob', greeting: 'Hi');
+}
 ```
+
+### Default Parameters
+
+May be used with both 
