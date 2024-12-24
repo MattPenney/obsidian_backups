@@ -170,6 +170,35 @@ void main() {
 }
 ```
 
+## Constructors
+
+A constructor is called when a class is instantiated
+
+```dart 
+class Car {
+	int wheels;
+	bool isRunning;
+	Car(this.wheels, this.isRunning);
+}
+```
+
+A constructor can also call a default constructor or super with `:`
+
+```dart
+Spacecraft(this.name, this.launchDate) {
+
+}
+
+Spacecraft.unlaunched(String name) : this(name, null)
+```
+
+or
+
+```dart
+class Example {
+	Example() : super();
+}
+```
 ## Encapsulation
 
 Protects data from unauthorized access
