@@ -33,6 +33,7 @@ class Person {
 ```
 
 ### public
+
 Allows access by external classes
 ### private
 
@@ -46,3 +47,26 @@ An underscore declares a private property
 ## Methods
 
 Represent behaviour
+
+```dart
+class Person {
+	String name;
+	int age;
+
+	Person(this.name, this.age);
+
+	void describe() {
+		print('I am $name and I am $age years old.');
+	}
+
+	int yearsUntilRetirement() {
+		return 65 - age;
+	}
+}
+
+void main() {
+	Person p = Person('Alice', 30);
+	p.describe
+
+}
+```
