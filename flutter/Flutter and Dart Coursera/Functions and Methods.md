@@ -82,4 +82,30 @@ void main() {
 
 ### Default Parameters
 
-May be used with both 
+May be used with both positional and named parameters
+
+## Arrow Functions
+
+```dart
+int square(int x) => x * x;
+
+void main() {
+	print(square(4)); // Output 16
+}
+```
+
+## Methods
+
+Methods are functions associated with an object
+
+Defined within a class
+
+Operate on instances of that class
+
+Perform actions on data contained within objects
+
+```dart
+List<String> fruits = ['Apple', 'Banana', 'Cherry'];
+
+fruits.add('Date');
+```
